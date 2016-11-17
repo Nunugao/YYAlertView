@@ -15,6 +15,9 @@
 		142568E51DDC334A00D4C7DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142568E31DDC334A00D4C7DF /* LaunchScreen.storyboard */; };
 		142568F01DDC334A00D4C7DF /* YYAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142568EF1DDC334A00D4C7DF /* YYAlertViewTests.m */; };
 		142568FB1DDC334A00D4C7DF /* YYAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142568FA1DDC334A00D4C7DF /* YYAlertViewUITests.m */; };
+		1425690A1DDC335E00D4C7DF /* YYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 142569091DDC335E00D4C7DF /* YYAlertView.m */; };
+		1425690D1DDC360700D4C7DF /* my_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1425690B1DDC360700D4C7DF /* my_highlighted@2x.png */; };
+		1425690E1DDC360700D4C7DF /* my_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1425690C1DDC360700D4C7DF /* my_highlighted@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		142568F61DDC334A00D4C7DF /* YYAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		142568FA1DDC334A00D4C7DF /* YYAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAlertViewUITests.m; sourceTree = "<group>"; };
 		142568FC1DDC334A00D4C7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142569081DDC335E00D4C7DF /* YYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAlertView.h; sourceTree = "<group>"; };
+		142569091DDC335E00D4C7DF /* YYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAlertView.m; sourceTree = "<group>"; };
+		1425690B1DDC360700D4C7DF /* my_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_highlighted@2x.png"; sourceTree = "<group>"; };
+		1425690C1DDC360700D4C7DF /* my_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_highlighted@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,10 @@
 		142568D41DDC334A00D4C7DF /* YYAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				1425690B1DDC360700D4C7DF /* my_highlighted@2x.png */,
+				1425690C1DDC360700D4C7DF /* my_highlighted@3x.png */,
+				142569081DDC335E00D4C7DF /* YYAlertView.h */,
+				142569091DDC335E00D4C7DF /* YYAlertView.m */,
 				142568D81DDC334A00D4C7DF /* AppDelegate.h */,
 				142568D91DDC334A00D4C7DF /* AppDelegate.m */,
 				142568DB1DDC334A00D4C7DF /* ViewController.h */,
@@ -243,8 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1425690D1DDC360700D4C7DF /* my_highlighted@2x.png in Resources */,
 				142568E51DDC334A00D4C7DF /* LaunchScreen.storyboard in Resources */,
 				142568E21DDC334A00D4C7DF /* Assets.xcassets in Resources */,
+				1425690E1DDC360700D4C7DF /* my_highlighted@3x.png in Resources */,
 				142568E01DDC334A00D4C7DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				142568DD1DDC334A00D4C7DF /* ViewController.m in Sources */,
+				1425690A1DDC335E00D4C7DF /* YYAlertView.m in Sources */,
 				142568DA1DDC334A00D4C7DF /* AppDelegate.m in Sources */,
 				142568D71DDC334A00D4C7DF /* main.m in Sources */,
 			);
